@@ -1,0 +1,52 @@
+.news-feed{
+    display: grid;
+    grid-template-columns: repeat(minmax(25rem, 1fr));
+    height: 100%;
+    width: 70%;
+    padding: 2rem;
+}
+
+.news-feed-item{
+    height: 50vh;
+    border: 2px solid #fafafa;
+    padding: 0 2rem;
+    margin: .5rem;
+}
+
+.feed-image{
+    display: flex;
+    padding-bottom: 2rem;
+    width: 100%;
+    height: 20vh;
+    border-bottom: 2px solid #333;
+}
+
+.feed-title{
+    margin-top: 2rem;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+
+.feed-title a{
+    color: #333;
+}
+
+.feed-info{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+    justify-content: space-evenly;
+}
+
+.feed-info i{
+    color: rgb(128, 125, 125);
+    font-size: 1.3rem;
+    padding-right: .2rem;
+}
+
+.feed-info small{
+    color: rgb(128, 125, 125);
+    font-size: 1.3rem;
+}
+
